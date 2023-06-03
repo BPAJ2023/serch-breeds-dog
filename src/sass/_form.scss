@@ -1,0 +1,18 @@
+.form__ipt, .form__btn{
+    letter-spacing: 1px;
+    font-size: medium;
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.form__ipt {
+    width: 300px
+}
+.form__ipt:focus {
+    box-shadow: 0 0 3px 3px rgb(155, 155, 125);
+}
+.form__btn:active {
+    box-shadow: 0 0 3px 3px rgb(155, 155, 125);
+}

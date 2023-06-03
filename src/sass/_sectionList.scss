@@ -1,0 +1,26 @@
+.wraper__list-breeds {
+    margin: 50px 0;
+    .list-breeds{
+        border: solid 3px $colorBorder;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        .item-breed{
+            flex: 1 0 30%;
+            height: 100px;
+            line-height: 90px;
+            padding: 5px;
+            margin: 15px;
+            text-align: center;
+            text-transform: uppercase;
+            color: rgb(213, 210, 210);
+            font-size: 30px;
+            background-color: $colorBorder;
+            cursor: pointer;
+        }
+        .item-breed:hover {
+            background-color: darken($colorBorder, 10%);
+        }
+    }
+}
